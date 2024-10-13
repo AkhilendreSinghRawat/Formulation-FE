@@ -1,0 +1,26 @@
+.technical-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #1a1a1a; /* Dark background for the table */
+  color: rgba(255, 255, 255, 0.87); /* White text for better readability */
+}
+
+.technical-table th,
+.technical-table td {
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Light border for cells */
+  padding: 8px;
+  text-align: center; /* Center align text */
+}
+
+.technical-table th {
+  background-color: #242424; /* Dark header background */
+  font-weight: bold;
+}
+
+/* .technical-table tr:hover {
+  background-color: #333333; 
+} */
+
+.technical-table tfoot {
+  font-weight: bold;
+}
